@@ -1,0 +1,207 @@
+.center
+{
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+
+}
+.central
+{
+    position: absolute;
+    left: 42%;
+    top: 30%;
+    text-align: center;
+}
+.top
+{
+    position: absolute;
+    top: 0%;
+    vertical-align: top;
+}
+
+body, html {
+  font-family: "Lato", sans-serif;
+  height: 100%;
+  margin: 0;
+  color: #3D3B3B;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+/*why is this not working?? i want settings/contact to be at the bottom of nav bar*/
+.bottom
+{
+  vertical-align: bottom;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.bg {
+  /* The image used */
+  background-image: url("mountain2.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.50;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Basic Style */
+/*.container {
+  display: block;
+  width: 400px;
+  margin: 100px auto 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li * {
+  float: left;
+}
+li {
+  clear:both;
+  list-style:none;
+}
+input, button {
+  outline: none;
+}
+button {
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  margin: 10px 0 0;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+}
+button:hover {
+  color: #333;
+}*/
+/* Heading */
+/*input[type="text"] {
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 18px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
+}
+input[type="text"]:focus {
+  color: #333;
+}*/
+
+/* New Task */
+/*label[for='new-task'] {
+  display: block;
+  margin: 0 0 20px;
+}
+#new-task {
+  float: left;
+  width: 318px;
+}
+p > button:hover {
+  color: #0FC57C;
+}*/
+
+/* Task list */
+/*li {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+li > input[type="checkbox"] {
+  margin: 0 10px;
+  position: relative;
+  top: 15px;
+}
+li > label {
+  font-size: 18px;
+  line-height: 40px;
+  width: 237px;
+  padding: 0 0 0 11px;
+}
+li >  input[type="text"] {
+  width: 226px;
+}
+li > .delete:hover {
+  color: #CF2323;
+}*/
+
+/* Completed */
+/*#completed-tasks label {
+  text-decoration: line-through;
+  color: #888;
+}*/
+
+/* Edit Task */
+/*ul li input[type=text] {
+  display:none;
+}
+
+ul li.editMode input[type=text] {
+  display:block;
+}
+
+ul li.editMode label {
+  display:none;
+}*/
